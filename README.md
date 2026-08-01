@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner/virtual-keyboard-mouse-banner.gif" width="100%">
+  <img src="assets/banner.gif" alt="Virtual Keyboard & Mouse" width="100%">
 </p>
 
 # 🖐️ Virtual Keyboard & Mouse
