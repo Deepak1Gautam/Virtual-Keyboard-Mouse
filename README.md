@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner/virtual-keyboard-mouse-banner.png" alt="Virtual Keyboard Mouse Banner" width="100%">
+</p>
+
 # 🖐️ Virtual Keyboard & Mouse
 
 A computer vision-based **Virtual Keyboard and Mouse** that allows users to control their computer using **hand gestures** without a physical keyboard or mouse.
