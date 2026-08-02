@@ -9,8 +9,8 @@
   </a>
 
   <a href="https://github.com/Deepak1Gautam/Virtual-Keyboard-Mouse#-run-locally">
-  <img src="https://img.shields.io/badge/🚀_Live_Demo-Run_Locally-00C853?style=for-the-badge" alt="Live Demo">
-</a>
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Run_Locally-00C853?style=for-the-badge" alt="Live Demo">
+  </a>
 
 </p>
 
@@ -27,15 +27,15 @@
 <p align="center">
 
 <a href="https://github.com/Deepak1Gautam/Virtual-Keyboard-Mouse">
-  <img src="https://img.shields.io/badge/💻_GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub">
-</a>
-
-<a href="YOUR_LINKEDIN_PROFILE_URL">
-  <img src="https://img.shields.io/badge/💼_LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/💻_GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 <a href="#-live-demo--run-locally">
-  <img src="https://img.shields.io/badge/▶️_Live_Demo-Run_Locally-00C853?style=for-the-badge" alt="Live Demo">
+  <img src="https://img.shields.io/badge/🚀_Live_Demo-Run_Locally-00C853?style=for-the-badge" alt="Live Demo">
+</a>
+
+<a href="YOUR_LINKEDIN_PROFILE_URL">
+  <img src="https://img.shields.io/badge/💼_LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 </p>
