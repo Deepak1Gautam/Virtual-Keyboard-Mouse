@@ -2,71 +2,118 @@
   <img src="assets/banner.gif" alt="Virtual Keyboard & Mouse" width="100%">
 </p>
 
-# 🖐️ Virtual Keyboard & Mouse
+<h1 align="center">🖐️ Virtual Keyboard & Mouse</h1>
 
-A computer vision-based **Virtual Keyboard and Mouse** that allows users to control their computer using **hand gestures** without a physical keyboard or mouse.
+<p align="center">
+  <b>Control your computer using hand gestures — no physical keyboard or mouse required.</b>
+</p>
 
-The project uses **MediaPipe Hand Tracking**, **OpenCV**, and **PyAutoGUI** to detect hand landmarks and convert gestures into keyboard and mouse actions.
+<p align="center">
+  A real-time computer vision project built with Python, OpenCV, MediaPipe and PyAutoGUI.
+</p>
+
+---
+
+## 📌 About The Project
+
+**Virtual Keyboard & Mouse** is a computer-vision-based human-computer interaction project that allows users to control their computer using hand gestures.
+
+The system uses **MediaPipe hand landmark detection** to track the user's hand and **OpenCV** to process the webcam feed in real time.
+
+The project provides two main modes:
+
+- 🖱️ **Virtual Mouse**
+- ⌨️ **Virtual Keyboard**
+
+Users can switch between these modes using simple hand gestures.
 
 ---
 
 ## ✨ Features
 
 ### 🖱️ Virtual Mouse
-- Move the cursor using your index finger
-- Left click using thumb + index finger pinch
-- Right click using thumb + middle finger pinch
-- Hold pinch to drag
-- Scroll using index + middle finger movement
+
+Control your computer mouse using simple hand gestures.
+
+- ☝️ **Index Finger** → Move cursor
+- 🤏 **Index + Thumb Pinch** → Left click
+- ✊ **Hold Pinch** → Drag & drop
+- 🤏 **Thumb + Middle Finger Pinch** → Right click
+- ↕️ **Index + Middle Fingers Apart** → Scroll
+- ⚡ Smooth and responsive cursor movement
+
+---
 
 ### ⌨️ Virtual Keyboard
-- Type characters using hand gestures
-- Virtual QWERTY keyboard displayed through OpenCV
-- Hover over keys using the index finger
-- Pinch thumb + index finger to press a key
-- CAPS LOCK support
-- SHIFT support
-- SPACE
-- BACKSPACE
-- ENTER
-- CLEAR
 
-### 🔄 Mode Switching
-Switch between Mouse and Keyboard modes using hand gestures:
+Type on your computer without touching a physical keyboard.
 
-- ☝️ One finger → Mouse Mode
-- ✌️ Two fingers → Keyboard Mode
-
-The gesture must be held for a short duration to prevent accidental mode switching.
+- ☝️ **Index Finger** → Hover over a key
+- 🤏 **Thumb + Index Pinch** → Press key
+- 🔠 **CAPS** → Toggle uppercase
+- ⇧ **SHIFT** → Temporary uppercase
+- ␣ **SPACE** → Insert space
+- ⌫ **BACKSPACE** → Delete character
+- ↵ **ENTER** → Press Enter
+- 🧹 **CLEAR** → Clear typed text
 
 ---
 
-## 🛠️ Tech Stack
+### 🎯 Smart Interaction
 
-| Technology | Purpose |
-|---|---|
-| Python | Core programming language |
-| OpenCV | Camera feed and visual interface |
-| MediaPipe | Hand landmark detection |
-| PyAutoGUI | Controlling mouse and keyboard |
-| NumPy | Numerical operations |
+- 🔄 Mouse ↔ Keyboard mode switching
+- 🖐️ Real-time hand landmark tracking
+- 📊 Real-time FPS counter
+- 🟢 Live gesture status
+- 📋 Current action display
+- 🎨 Transparent UI panels
+- ⏱️ Gesture hold detection
+- ⚡ Click and keypress cooldown system
+- 🎯 Cursor smoothing
+
+## 🧠 Gesture Controls
+
+| Gesture | Action | Mode |
+|---|---|---|
+| ☝️ Index Finger | Move cursor | 🖱️ Mouse |
+| 🤏 Index + Thumb Pinch | Left Click | 🖱️ Mouse |
+| ✊ Hold Pinch | Drag & Drop | 🖱️ Mouse |
+| 🤏 Thumb + Middle Pinch | Right Click | 🖱️ Mouse |
+| ↕️ Index + Middle Apart | Scroll | 🖱️ Mouse |
+| ✌️ Index + Middle Hold | Switch to Keyboard | 🔄 Switch |
+| ☝️ Index Finger Hover | Select Key | ⌨️ Keyboard |
+| 🤏 Thumb + Index Pinch | Type Key | ⌨️ Keyboard |
+| 🔠 CAPS | Toggle Uppercase | ⌨️ Keyboard |
+| ⇧ SHIFT | Temporary Uppercase | ⌨️ Keyboard |
+| ␣ SPACE | Insert Space | ⌨️ Keyboard |
+| ⌫ BACKSPACE | Delete Character | ⌨️ Keyboard |
+| ↵ ENTER | Press Enter | ⌨️ Keyboard |
+| 🧹 CLEAR | Clear Text | ⌨️ Keyboard |
+| ☝️ Index Finger Hold | Switch to Mouse | 🔄 Switch |
+
+> 💡 **Tip:** Hold the required gesture for a short moment to prevent accidental actions.
 
 ---
 
-## 📂 Project Structure
+## ⚙️ How To Run
 
-```text
-Virtual-Keyboard-Mouse/
-│
-├── assets/
-│   └── hand_landmarker.task
-│
-├── modules/
-│   ├── hand_tracker.py
-│   ├── virtual_keyboard.py
-│   ├── virtual_mouse.py
-│   └── .gitignore
-│
-├── main.py
-├── requirements.txt
-└── README.md
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Deepak1Gautam/Virtual-Keyboard-Mouse.git
+
+```markdown
+Move into the project folder:
+cd Virtual-Keyboard-Mouse
+
+### 2️⃣ Create a Virtual Environment
+
+Windows:
+
+```bash
+python -m venv venv
+
+Activate the virtual environment:
+
+```powershell
+venv\Scripts\activate
