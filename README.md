@@ -8,9 +8,9 @@
     <img src="https://img.shields.io/badge/💻%20GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
 
-  <a href="YOUR_LINKEDIN_POST_LINK">
-    <img src="https://img.shields.io/badge/💼%20LinkedIn-View%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
+  <a href="https://github.com/Deepak1Gautam/Virtual-Keyboard-Mouse#-run-locally">
+  <img src="https://img.shields.io/badge/🚀_Live_Demo-Run_Locally-00C853?style=for-the-badge" alt="Live Demo">
+</a>
 
 </p>
 
