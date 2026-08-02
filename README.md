@@ -2,6 +2,18 @@
   <img src="assets/banner.gif" alt="Virtual Keyboard & Mouse" width="100%">
 </p>
 
+<p align="center">
+
+  <a href="https://github.com/Deepak1Gautam/Virtual-Keyboard-Mouse">
+    <img src="https://img.shields.io/badge/💻%20GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+
+  <a href="YOUR_LINKEDIN_POST_LINK">
+    <img src="https://img.shields.io/badge/💼%20LinkedIn-View%20Post-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+
+</p>
+
 <h1 align="center">🖐️ Virtual Keyboard & Mouse</h1>
 
 <p align="center">
